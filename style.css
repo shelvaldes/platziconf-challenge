@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family: "Quicksand";
+    background: linear-gradient(138.74deg, #E62C3E 20.7%, #D64E96 77.36%);
+    color: white;
+}
+
+main{
+    margin: auto;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+button{
+    background-color: white;
+    padding: 15px 20px;
+    border-style: none;
+    border-radius: 50px;
+    margin-top: 20px;
+    color: rgb(182, 8, 75);
+    text-transform: uppercase;
+}
